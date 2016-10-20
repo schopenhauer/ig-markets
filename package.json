@@ -1,0 +1,25 @@
+{
+  "name": "ig-markets",
+  "version": "1.0.0",
+  "description": "IG Markets API wrapper for Node.js",
+  "main": "lib/ig.js",
+  "keywords": [
+    "IG",
+    "trading",
+    "markets",
+    "finance"
+  ],
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "author": "Arthur Schopenhauer",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.2",
+    "restler": "^3.4.0"
+  },
+  "devDependencies": {
+    "mocha": "~3.1.2",
+    "chai": "~3.5.0"
+  }
+}
