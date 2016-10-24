@@ -2,8 +2,6 @@
 
 A basic wrapper for the IG Markets REST API written in Node.js. Please refer to the official [documentation](https://labs.ig.com/rest-trading-api-guide) for more information on [API endpoints](https://labs.ig.com/rest-trading-api-reference).
 
-<img src="https://a.c-dn.net/c/etc/designs/onedomain/1475165686000/images/og_image.jpg" width="100" height="100" />
-
 ## Installation
 
 ```
