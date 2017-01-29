@@ -4,6 +4,8 @@ A basic wrapper for the IG Markets REST API written in Node.js. Please refer to 
 
 ## Installation
 
+Note: Without tanspiling this will require node with --harmony flag to run
+
 ```
 npm install ig-markets --save
 ```
@@ -11,16 +13,16 @@ npm install ig-markets --save
 ## Usage
 
 ```node
-var IG = require('ig-markets');
-var ig = new IG(key, identifier, password);
+const IG = require('ig-markets');
+const ig = new IG(key, identifier, password, isDemo);
 
-ig.prices('CS.D.EURUSD.MINI.IP', function(err, data) {
-  if (err) {
-    console.error(err);
-  } else {
-    console.log(data);
-  }
-});
+try {
+  const data = await ig.prices('CS.D.EURUSD.MINI.IP');
+  console.log(data);
+} catch(e) {
+  console.error(e);
+}
+
 ```
 
 ## Contributing

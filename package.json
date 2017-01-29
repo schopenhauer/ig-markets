@@ -15,7 +15,6 @@
   "author": "Arthur Schopenhauer",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.1.2",
     "restler": "^3.4.0"
   },
   "devDependencies": {
