@@ -1,5 +1,7 @@
 # ig-markets
 
+<a href="https://codeclimate.com/github/schopenhauer/ig-markets"><img src="https://codeclimate.com/github/schopenhauer/ig-markets/badges/gpa.svg" /></a>
+
 A basic wrapper for the IG Markets REST API written in Node.js. Please refer to the official [documentation](https://labs.ig.com/rest-trading-api-guide) for more information on [API endpoints](https://labs.ig.com/rest-trading-api-reference).
 
 ## Installation
